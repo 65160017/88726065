@@ -1,0 +1,42 @@
+body{
+    font-family: arial;
+    background-color: rgb(235, 235, 235);
+}
+h1{
+    color: rgb(16, 6, 74);
+}
+
+table p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td,tr,table{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    background-color: rgb(209, 204, 228);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(175, 163, 225);
+}
+
+.content p{
+    margin: 5px;
+}
+
+.color td{
+    background-color:rgb(64, 64, 64);
+    color: white;
+  
+}
+
+.day{
+    background-color: rgb(143, 143, 143);
+    color: white;
+}
