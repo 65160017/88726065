@@ -2,16 +2,17 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 20px;
-    background-color: #f8f8f8;
+    background-color: #eee5fa;
+    padding-top: 5px;
 }
 
 h1 {
     color: #333;
     font-size: 24px;
-    background-color: #bbffb2;
+    background-color: #b681fc;
     padding: 15px;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(20, 3, 36);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -22,12 +23,12 @@ ul {
 }
 
 li {
-    background-color: #fff;
+    background-color: #ffffff;
 
     padding: 15px;
     margin: 10px 0;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(15, 4, 34, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +43,7 @@ li.completed {
 input[type="text"] {
     width: 60%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #1e1841;
     border-radius: 8px;
     margin-right: 10px;
     font-size: 16px;
@@ -50,7 +51,7 @@ input[type="text"] {
 
 button {
     padding: 12px 24px;
-    background-color: #ffaced;
+    background-color: #f863a1;
     color: white;
     border: none;
     border-radius: 8px;
