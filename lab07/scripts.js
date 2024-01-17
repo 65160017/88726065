@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
             todoInput.value = "";
         }
     }
-
     function deleteTodo(index) {
         todos.splice(index, 1);
         renderTodoList();
@@ -25,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function () {
         todos[index].completed = !todos[index].completed;
         renderTodoList();
     }
-
     function renderTodoList() {
         console.log(todos);
         todoList.innerHTML = "";
