@@ -16,7 +16,12 @@ document.addEventListener("DOMContentLoaded", function () {
             todoInput.value = "";
         }
     }
-    
+
+    function deleteTodo(index) {
+        todos.splice(index, 1);
+        renderTodoList();
+    }
+
     function renderTodoList() {
         console.log(todos);
         todoList.innerHTML = "";
